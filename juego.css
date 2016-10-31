@@ -1,0 +1,46 @@
+ body {
+	background-color: #2E2E2E;
+}
+ h1{
+	text-align: center;
+	color: white;
+	vertical-align: top;
+	text-shadow: -1px -1px 0px #fff, 1px 1px 0px #fff;
+	font-size:45px; 
+}
+h2 {
+	margin-top: -390px;
+	color: green;
+}
+img{
+
+	height: 250px;
+	width: 250px;
+	float: right;
+	border: 5px solid #1C1C1C;
+	padding: 5px; 
+	background: #fff; 
+	position: fixed;
+	top: 50%;
+	margin-top: -20px;
+
+}
+
+#juego{
+  width: 600px;
+  height: 600px;
+  position: relative;
+  text-align: center;
+  border: 10px solid black;
+  margin: 0 auto;
+  margin-top: 60px;
+  background-color: black;
+}
+
+.pieza{
+  width: 200px;
+  height: 200px;
+  background-size: 100% 100%;
+  position: absolute;
+}
+
